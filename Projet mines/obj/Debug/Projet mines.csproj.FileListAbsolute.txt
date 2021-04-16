@@ -1,0 +1,15 @@
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\bin\Debug\Projet mines.exe.config
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\bin\Debug\Projet mines.exe
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\bin\Debug\Projet mines.pdb
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Projet mines.csprojAssemblyReference.cache
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\MainWindow.g.cs
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\App.g.cs
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Projet mines_MarkupCompile.cache
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Projet mines_MarkupCompile.lref
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\MainWindow.baml
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Projet mines.g.resources
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Projet_mines.Properties.Resources.resources
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Projet mines.csproj.GenerateResource.cache
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Projet mines.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Projet mines.exe
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Projet mines.pdb

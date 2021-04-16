@@ -5,8 +5,91 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Projet_mines"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="900">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Rectangle Grid.Column="0" Fill="#37B7FF"/>
+        <Rectangle Grid.Column="1" Fill="#37B7FF"/>
+        <Rectangle Grid.Column="2" Fill="#37B7FF"/>
+        <Rectangle Grid.Column="3" Fill="#37B7FF"/>
+        <Rectangle Grid.Column="4" Fill="#37B7FF"/>
+        <Rectangle Grid.Column="5" Fill="#37B7FF"/>
+        <Rectangle Grid.Column="6" Fill="#37B7FF"/>
+        <Rectangle Grid.Column="7" Fill="#37B7FF"/>
+        <Rectangle Grid.Column="8" Fill="#37B7FF"/>
+        <TextBlock TextWrapping="Wrap" Grid.ColumnSpan="2" TextAlignment="Center" FontFamily="Arial" FontSize="14" FontWeight="Bold" Foreground="#fff" Margin="0,25,0,0" Grid.Column="2" Grid.Row="0">
+            Royaume du Maroc Ministre de l'Energien, des Mines</TextBlock>
+        <Image Source="./Images/kingdomLogo.png" Grid.Column="4" Grid.Row="0"  />
+        <TextBlock TextWrapping="Wrap" Grid.ColumnSpan="2" TextAlignment="Center" FontFamily="Arial" FontSize="14" FontWeight="Bold" Foreground="#fff" Margin="0,30,0,0" Grid.Column="5" Grid.Row="0">
+            المملكة المغربية وزارة الطاقة و المعادن</TextBlock>
+
+        <TextBox  Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Margin="10,5,0,0"  Height="20"/>
+        <Image Source="./Images/search.png" Grid.Column="2" Grid.Row="1" Margin="0,5,0,0" Width="20" Height="20"  />
+        <ComboBox Grid.Column="7" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,5,20,0" >
+            <ComboBoxItem IsSelected="True">Ajouter</ComboBoxItem>
+            <ComboBoxItem >Permis Recherche</ComboBoxItem>
+            <ComboBoxItem>Permis Recherche renouvelé</ComboBoxItem>
+            <ComboBoxItem >Licence d'explotation</ComboBoxItem>
+            <ComboBoxItem>Licence d'explotation renouvelé</ComboBoxItem>
+        </ComboBox>
+        <Button Content="Tous" Grid.Column="0" Grid.Row="2"  Height="25" Background="#37B7FF" Foreground="White" FontWeight="Bold" FontSize="10" FontFamily="Arial" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Demande" Grid.Column="1" Grid.Row="2"  Height="25" Background="WhiteSmoke" Foreground="#37B7FF" FontWeight="Bold" FontSize="10" FontFamily="Arial" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Permis Recherche" Grid.Column="2" Grid.Row="2"  Height="25" Background="WhiteSmoke" Foreground="#37B7FF" FontWeight="Bold" FontSize="10" FontFamily="Arial" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Permis Renovelé" Grid.Column="3" Grid.Row="2"  Height="25" Background="WhiteSmoke" Foreground="#37B7FF" FontWeight="Bold" FontSize="10" FontFamily="Arial" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Licence d'explotation" Grid.Column="4" Grid.Row="2"  Height="25" Background="WhiteSmoke" Foreground="#37B7FF" FontWeight="Bold" FontSize="10" FontFamily="Arial" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Licence Renovelé" Grid.Column="5" Grid.Row="2"  Height="25" Background="WhiteSmoke" Foreground="#37B7FF" FontWeight="Bold" FontSize="10" FontFamily="Arial" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
         
     </Grid>
 </Window>
