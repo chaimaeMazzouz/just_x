@@ -20,9 +20,12 @@ namespace Projet_mines
     /// </summary>
     public partial class MainWindow : Window
     {
+        ProjetMinesDBContext projetMinesDBContext;
         public MainWindow()
         {
             InitializeComponent();
+            projetMinesDBContext = new ProjetMinesDBContext();
+            projetMinesDBContext.Areas.ToList();
         }
     }
 }
