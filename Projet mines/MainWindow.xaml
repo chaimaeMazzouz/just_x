@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Projet_mines"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="900">
+        Title="MainWindow" Height="650" Width="900">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="100" />
@@ -90,6 +90,15 @@
                 </Style>
             </Button.Resources>
         </Button>
-        
+        <DataGrid Grid.Row="3" Grid.ColumnSpan="9" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Num Permis"></DataGridTextColumn>
+                <DataGridTextColumn Header="Type"></DataGridTextColumn>
+                <DataGridTextColumn Header="Ex Permis"></DataGridTextColumn>
+                <DataGridTextColumn Header="Chevauchement"></DataGridTextColumn>
+                <DataGridTextColumn  >
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>

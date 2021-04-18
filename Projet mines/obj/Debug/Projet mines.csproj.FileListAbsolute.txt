@@ -13,3 +13,12 @@ C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\D
 C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Projet mines.csproj.CoreCompileInputs.cache
 C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Projet mines.exe
 C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Projet mines.pdb
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\bin\Debug\MaterialDesignColors.dll
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\bin\Debug\MaterialDesignColors.pdb
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Login.g.cs
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\App.baml
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Login.baml
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Projet mines.csproj.CopyComplete
