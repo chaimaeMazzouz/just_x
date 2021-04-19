@@ -8,15 +8,15 @@
         Title="MainWindow" Height="650" Width="900">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="80"/>
@@ -48,42 +48,42 @@
             <ComboBoxItem >Licence d'explotation</ComboBoxItem>
             <ComboBoxItem>Licence d'explotation renouvelé</ComboBoxItem>
         </ComboBox>
-        <Button Content="Tous" Grid.Column="0" Grid.Row="2"  Height="25" Background="#37B7FF" Foreground="White" FontWeight="Bold" FontSize="10" FontFamily="Arial" >
+        <Button Content="Tous" Grid.Column="0" Grid.Row="2"  Height="25"  Width="Auto" Background="#37B7FF" Foreground="White" FontWeight="Bold" FontSize="10" FontFamily="Arial" Margin="10,0,0,0">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="7"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="Demande" Grid.Column="1" Grid.Row="2"  Height="25" Background="WhiteSmoke" Foreground="#37B7FF" FontWeight="Bold" FontSize="10" FontFamily="Arial" >
+        <Button Content="Demande" Grid.Column="1" Grid.Row="2"   Height="25" Background="WhiteSmoke" Foreground="#37B7FF" FontWeight="Bold" FontSize="10" FontFamily="Arial" Margin="10,0,0,0">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="7"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="Permis Recherche" Grid.Column="2" Grid.Row="2"  Height="25" Background="WhiteSmoke" Foreground="#37B7FF" FontWeight="Bold" FontSize="10" FontFamily="Arial" >
+        <Button Content="PR" Grid.Column="2" Grid.Row="2"  Height="25" Background="WhiteSmoke" Foreground="#37B7FF" FontWeight="Bold" FontSize="10" FontFamily="Arial" Margin="10,0,0,0">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="7"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="Permis Renovelé" Grid.Column="3" Grid.Row="2"  Height="25" Background="WhiteSmoke" Foreground="#37B7FF" FontWeight="Bold" FontSize="10" FontFamily="Arial" >
+        <Button Content="PRR" Grid.Column="3" Grid.Row="2" Height="25" Background="WhiteSmoke" Foreground="#37B7FF" FontWeight="Bold" FontSize="10" FontFamily="Arial" Margin="10,0,0,0">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="7"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="Licence d'explotation" Grid.Column="4" Grid.Row="2"  Height="25" Background="WhiteSmoke" Foreground="#37B7FF" FontWeight="Bold" FontSize="10" FontFamily="Arial" >
+        <Button Content="LE" Grid.Column="4" Grid.Row="2" Height="25" Background="WhiteSmoke" Foreground="#37B7FF" FontWeight="Bold" FontSize="10" FontFamily="Arial" Margin="10,0,0,0" >
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="7"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="Licence Renovelé" Grid.Column="5" Grid.Row="2"  Height="25" Background="WhiteSmoke" Foreground="#37B7FF" FontWeight="Bold" FontSize="10" FontFamily="Arial" >
+        <Button Content="LER" Grid.Column="5" Grid.Row="2" Height="25" Background="WhiteSmoke" Foreground="#37B7FF" FontWeight="Bold" FontSize="10" FontFamily="Arial" Margin="10,0,0,0" >
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="7"/>

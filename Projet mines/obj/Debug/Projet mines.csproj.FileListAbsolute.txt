@@ -22,3 +22,5 @@ C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\D
 C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\App.baml
 C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Login.baml
 C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Projet mines.csproj.CopyComplete
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Informations.g.cs
+C:\Users\user\Documents\Projet mines\Realisation\Projet mines\Projet mines\obj\Debug\Informations.baml
